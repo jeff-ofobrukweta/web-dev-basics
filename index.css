@@ -159,7 +159,7 @@
     padding-bottom: 0rem;
 }
 .o-section--feature {
-    padding: 5rem 0;
+    padding: 1rem 0;
 }
 .o-content-container {
     padding: 0 4vw;
@@ -194,7 +194,7 @@
     border-bottom: none;
     justify-content: center;
     margin: auto;
-    position: relative;
+    position: absolute;
 }
 .u-visually-hidden {
     position: absolute;
@@ -251,4 +251,8 @@ img, video {
 }
 .u-rect-ice-blue-hover rect {
     fill: #36c5f0!important;
+}
+.contain-center{
+    display: flex;
+    justify-content: center;
 }
